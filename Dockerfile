@@ -15,7 +15,7 @@ FROM base AS builder
 
 RUN apk update && apk add --no-cache git
 
-ENV OPENAI_API_KEY="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"
+ENV OPENAI_API_KEY="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"
 ENV CODE="qweasd@1"
 
 WORKDIR /app
